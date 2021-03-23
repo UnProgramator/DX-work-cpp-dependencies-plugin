@@ -9,7 +9,7 @@ def main():
     nodes = data['objects']
     edges = data['edges']
     
-    outVal = {'name':'Intercomponent_relation', 'description':'Visualiza the relation between graphs', 'visualTags':['digraph', 'hierarchical-edge-bundle', 'forced-layered-graph'], 'entity':'MODULES', 'timestamp':int(time.time()), 'content':None }
+    outVal = {'name':'Intercomponent_relation', 'description':'Visualiza the relation between graphs', 'visualTags':['digraph', 'hierarchical-edge-bundle'], 'entity':'C++ Dependencies', 'timestamp':int(time.time()), 'content':None }
     
     #graph node prelucrare
     
@@ -30,5 +30,5 @@ def main():
         #json.dump(outVal, iei)
     print(json.dumps([outVal]))
     
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()

@@ -1,4 +1,4 @@
-cpp-dependencies.exe --dir "$2" --graph depgraf.dot
+./cpp-dependencies --dir "$2" --graph depgraf.dot
  
 dot -Txdot_json -o  depgraf.json depgraf.dot
  

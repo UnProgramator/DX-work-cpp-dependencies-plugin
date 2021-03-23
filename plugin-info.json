@@ -11,8 +11,18 @@
             "name": "C++ Dependencie",
             "type": "analyzer",
             "description": "adaptation for Cpp-dependencies for DX-platform",
-            "commandTemplate": "bash run.sh ${outputFile}",
-            "configurationFields":[]
+            "commandTemplate": "bash run.sh ${outputFile} ${rootFolder}",
+            "configurationFields":[
+                {
+                    "id": "rootFolder",
+                    "name": "Project Root Folder",
+                    "type": "FOLDER",
+                    "description":"absolute path to the folder with the project",
+                    "tooltip":"The absolute path to the folder where your project exists",
+                    "showDescription": true,
+                    "required": true
+                }
+            ]
         }
     ]
 }

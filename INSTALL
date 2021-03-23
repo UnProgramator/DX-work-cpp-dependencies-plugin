@@ -10,29 +10,24 @@ Dependencies:
 
 In order to install the plugin into the DX-work/DX-platform:
     1. Linux
-    -! make sure you have installed dot on your computer or install it with your package manager
     - in .dx-plaform/plugins make a folder with the name you whish
-    - clone the git repository into the folder you make, as, in hte end, there will be the folowing hierarchy:
+    - either clone the git repository into the folder you make, as, in hte end, there will be the folowing hierarchy:
         .dx-platform
             |-plugins
-                |- [your-folder]
-                    |-DX-work-cpp-dependencies-plugin
-                        |-plugin-info.json
-                        |-install-all.sh
-                        |-install-plugin.sh
-                        |-install-cpp-dependencies.sh
-                        |-converter.py
-                        |-run.sh
-                        
-     1.1 use the install-all.sh - will install the cpp-dependencies and the plugin
+                |-DX-work-cpp-dependencies-plugin
+                    |-plugin-info.json
+                    |-install-cpp-dependencies.sh
+                    |-converter.py
+                    |-run.sh
      
-     1.2 or use the install-plugin.sh to install the plugin and compile/install independently the cpp-depenencies and add it to the global path or move the executable into theplugin folder, at the same level as the convert.py and run.sh
+     or clone it anywhere on the computer than after you made the next step, run install-plugin.sh
+     
+     1.1 use install-cpp-dependencies to install tomtom-international/cpp-dependencies or
+     1.2 install tomtom-international/cpp-dependencies on your own or if you already installed it. If cpp-dependencies executable is added to the path and not put in the plugin directory, modify run.sh> in line1 delete ./ in front of cpp-dependencies
      
      
     2. Windows
      - still working on it
-     
-     
      
      
 Or use the docker immage available at: ""
