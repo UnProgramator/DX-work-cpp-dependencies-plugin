@@ -1,7 +1,10 @@
 Dependencies:
     - in order co compile cpp-depenencies you will need: (see also https://github.com/tomtom-international/cpp-dependencies)
         - for Linux: make, CMake, Boost, dpck, gcc/g++
-                -! make sure you have installed dot on your computer or install it with your package manager
+                -! make sure you have installed dot on your computer or install it with your package manager 
+                (install graphviz or clone and compile from source - 
+                    http://www.graphviz.org/
+                    https://gitlab.com/graphviz/graphviz/-/blob/master/LICENSE)
         
     - for the converter you will only need python with standar libraries json and time. tested only on python 3.9, thow ealier version should work as well
 
@@ -13,7 +16,7 @@ In order to install the plugin into the DX-work/DX-platform:
         .dx-platform
             |-plugins
                 |- [your-folder]
-                    |-cpp-dependence-maven-plugin
+                    |-DX-work-cpp-dependencies-plugin
                         |-plugin-info.json
                         |-install-all.sh
                         |-install-plugin.sh
