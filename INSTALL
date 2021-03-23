@@ -1,0 +1,41 @@
+Dependencies:
+    - in order co compile cpp-depenencies you will need: (see also https://github.com/tomtom-international/cpp-dependencies)
+        - for Linux: make, CMake, Boost, dpck, gcc/g++
+                -! make sure you have installed dot on your computer or install it with your package manager
+        
+    - for the converter you will only need python with standar libraries json and time. tested only on python 3.9, thow ealier version should work as well
+
+In order to install the plugin into the DX-work/DX-platform:
+    1. Linux
+    -! make sure you have installed dot on your computer or install it with your package manager
+    - in .dx-plaform/plugins make a folder with the name you whish
+    - clone the git repository into the folder you make, as, in hte end, there will be the folowing hierarchy:
+        .dx-platform
+            |-plugins
+                |- [your-folder]
+                    |-cpp-dependence-maven-plugin
+                        |-plugin-info.json
+                        |-install-all.sh
+                        |-install-plugin.sh
+                        |-install-cpp-dependencies.sh
+                        |-converter.py
+                        |-run.sh
+                        
+     1.1 use the install-all.sh - will install the cpp-dependencies and the plugin
+     
+     1.2 or use the install-plugin.sh to install the plugin and compile/install independently the cpp-depenencies and add it to the global path or move the executable into theplugin folder, at the same level as the convert.py and run.sh
+     
+     
+    2. Windows
+     - still working on it
+     
+     
+     
+     
+Or use the docker immage available at: ""
+     
+     
+     
+     
+     
+     
