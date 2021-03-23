@@ -1,0 +1,18 @@
+{
+    "id": "CPP-Dependencies-component-for-ces-and-so-on",
+    "name": "C++ Depencies",
+    "description": "adaptation for Cpp-dependencies for DX-platform",
+    "version": "0.0.0.0.1",
+    "schemaVersion":"1",
+    "icon":"",
+    "commands":[
+        {
+            "id": "cpp-dependecies-adapter",
+            "name": "C++ Dependencie",
+            "type": "analyzer",
+            "description": "adaptation for Cpp-dependencies for DX-platform",
+            "commandTemplate": "bash run.sh ${outputFile}",
+            "configurationFields":[]
+        }
+    ]
+}
