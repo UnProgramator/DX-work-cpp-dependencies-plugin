@@ -1,7 +1,7 @@
-Dependencies:
+# Dependencies:
     see DEPENDENCIES file
 
-In order to install the plugin into the DX-work/DX-platform:
+# In order to install the plugin into the DX-work/DX-platform:
     1. Linux/unix-based (! only tested on Linux Manjaro)
 	1.1 you can find docker version of the plugin, find in release or in dx-plafrom-cpp-dependencies-plugin-dockerdocker.unix folder in the project or docker.unix release 
 		- copy the folder into .dx-platform/plugins/ folder
@@ -12,7 +12,7 @@ In order to install the plugin into the DX-work/DX-platform:
 	
 	-run install-plugin.sh
     
-	! for the docker plugin, on my linux/Manjaro i needed to call docker with sudo, if on your platform you do not need sudo for docker run, please erase the sudo call befroe docker run in run.docker.sh
+	**! for the docker plugin, on my linux/Manjaro i needed to call docker with sudo, if on your platform you do not need sudo for docker run, please erase the sudo call befroe docker run in run.docker.sh**
 	
     2. Windows
     2.1 you can find docker version of the plugin, find in release or in dx-plafrom-cpp-dependencies-plugin-dockerdocker.windows folder in the project
