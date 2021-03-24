@@ -16,6 +16,6 @@ COPY install-cpp-dependencies.sh ./install-cpp-dependencies.sh
 RUN bash install-cpp-dependencies.sh
 
 COPY converter.py ./converter.py
-COPY run.sh ./run.sh
+COPY dx-plafrom-cpp-dependencies-plugin.unix/run.sh ./run.sh
 
 ENTRYPOINT ["bash", "run.sh", "result.json", "source"]
