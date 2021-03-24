@@ -12,6 +12,7 @@
    - install the dependencies (see DEPENDENCIES file)   	
    - run install-plugin.sh  
 **!for the docker plugin, on my linux/Manjaro i needed to call docker with sudo, if on your platform you do not need sudo for docker run, please erase the sudo call befroe docker run in run.docker.sh**
+**!If out put cpp-dependencies to the path and didn't put it localy you have to modify the run.sh in dx-plafrom-cpp-dependencies-plugin.unix: erase the ./ in front of the call of cpp-dependencies**
 
 ## 2. Windows  
 
