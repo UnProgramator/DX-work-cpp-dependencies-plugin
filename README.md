@@ -5,7 +5,7 @@ The plugin is a wrapper written in python over cpp-dependencies which converts t
 
 
 ## Installation
- Details about the installation process can be accessed from here [INSTALL](https://github.com/UnProgramator/DX-work-cpp-dependencies-plugin/blob/master/INSTALL) also in order to use the plugin the following dependencies are required [see here](https://github.com/UnProgramator/DX-work-cpp-dependencies-plugin/blob/master/DEPENDENCIES)
+ Details about the installation process can be accessed from here [INSTALL](https://github.com/UnProgramator/DX-work-cpp-dependencies-plugin/blob/master/INSTALL), also in order to use the plugin the following dependencies are required [see here](https://github.com/UnProgramator/DX-work-cpp-dependencies-plugin/blob/master/DEPENDENCIES)  
 (tested in python version 3.9, graphviz version 2.46.1, cpp-dependencies v1.1)   
 
 
