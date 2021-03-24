@@ -11,9 +11,9 @@ The plugin is a wrapper written in python over cpp-dependencies which converts t
 
 
 ## Acknowledgment (for dependecies)
-[cpp-dependencies](https://github.com/tomtom-international/cpp-dependencies/blob/master/LICENSE)
-[graphviz](https://gitlab.com/graphviz/graphviz/-/blob/master/LICENSE)
-[python](https://docs.python.org/3/license.html)
+[cpp-dependencies](https://github.com/tomtom-international/cpp-dependencies/blob/master/LICENSE)  
+[graphviz](https://gitlab.com/graphviz/graphviz/-/blob/master/LICENSE)  
+[python](https://docs.python.org/3/license.html)  
 
 ## License
 [Apache License 2.0](https://github.com/UnProgramator/DX-work-cpp-dependencies-plugin/blob/master/LICENSE)
