@@ -1,0 +1,28 @@
+{
+    "id": "CPP-Dependencies-component-for-ces-and-so-on",
+    "name": "C++ Depencies",
+    "description": "adaptation for Cpp-dependencies for DX-platform",
+    "version": "0.0.0.0.1",
+    "schemaVersion":"1",
+    "icon":"",
+    "commands":[
+        {
+            "id": "cpp-dependecies-adapter",
+            "name": "C++ Dependencie",
+            "type": "analyzer",
+            "description": "adaptation for Cpp-dependencies for DX-platform",
+            "commandTemplate": "run run.bat ${outputFile} ${rootFolder}",
+            "configurationFields":[
+                {
+                    "id": "rootFolder",
+                    "name": "Project Root Folder",
+                    "type": "FOLDER",
+                    "description":"absolute path to the folder with the project",
+                    "tooltip":"The absolute path to the folder where your project exists",
+                    "showDescription": true,
+                    "required": true
+                }
+            ]
+        }
+    ]
+}
